@@ -1,3 +1,7 @@
 
 
 分享Github简明教程：http://www.linuxidc.com/Linux/2014-09/106230.htm
+
+Warning: Your console font probably doesn't support Unicode. If you experience s
+trange characters in the output, consider switching to a TrueType font such as L
+ucida Console!
