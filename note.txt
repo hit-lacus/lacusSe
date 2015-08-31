@@ -1,3 +1,8 @@
 
 
 分享Github简明教程：http://www.linuxidc.com/Linux/2014-09/106230.htm
+
+依次执行以下命令来解决中文乱码问题
+git config [--global] core.quotepath off
+git config [--global] --unset i18n.logoutputencoding
+git config [--global] --unset i18n.commitencoding
