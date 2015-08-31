@@ -2,6 +2,8 @@
 
 #不记录日志文件
 /log
+#不记录生成文件
+/target
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
