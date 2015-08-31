@@ -1,8 +1,9 @@
+åˆ†äº«Githubç®€æ˜æ•™ç¨‹ï¼šhttp://www.linuxidc.com/Linux/2014-09/106230.htm
 
-
-·ÖÏíGithub¼òÃ÷½Ì³Ì£ºhttp://www.linuxidc.com/Linux/2014-09/106230.htm
-
-ÒÀ´ÎÖ´ĞĞÒÔÏÂÃüÁîÀ´½â¾öÖĞÎÄÂÒÂëÎÊÌâ
+ä¾æ¬¡æ‰§è¡Œä»¥ä¸‹å‘½ä»¤æ¥è§£å†³ä¸­æ–‡ä¹±ç é—®é¢˜
 git config [--global] core.quotepath off
 git config [--global] --unset i18n.logoutputencoding
 git config [--global] --unset i18n.commitencoding
+
+
+æˆ‘å°†notepad++ çš„ç¼–ç UTF-8æ— BOMæ ¼å¼ç¼–ç ï¼Œä¸çŸ¥é“ç°åœ¨çœ‹ä¸­æ–‡æ•ˆæœå¦‚ä½•
