@@ -1,10 +1,13 @@
 package hitwh.yxx.wei.web.pojo;
 
+import javax.persistence.Entity;
+
 /**
  * 
  * @author Administrator
  *
  */
+@Entity
 public class User {
 	private String name;
 	private String email;
