@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 使用Spring -->
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.devMode" value="true" />
+	<constant name="struts.configuration.xml.reload" value="true" />
+
+	<package name="default" extends="struts-default" namespace="/">
+		<!-- 声明拦截器 <interceptors> <interceptor name="authority" class="us.xuhang.project.interceptor.AuthorityInterceptor" 
+			/> <interceptor name="exceptionInterceptor" class="us.xuhang.project.interceptor.ExceptionInterceptor" 
+			/> <interceptor-stack name="MyStack"> <interceptor-ref name="authority" /> 
+			<interceptor-ref name="exceptionInterceptor" /> <interceptor-ref name="params"> 
+			<param name="excludeParams">.*\\u0023.*</param> </interceptor-ref> <interceptor-ref 
+			name="defaultStack" /> </interceptor-stack> </interceptors> <default-interceptor-ref 
+			name="MyStack" /> -->
+		<!-- 定义全局的result <global-results> <result name="login">/index.jsp</result> 
+			<result name="error">/error.jsp</result> </global-results> -->
+		<action name="search" class="search" method="search">
+			<result name="success">index.jsp</result>
+		</action>
+
+	</package>
+
+</struts>
