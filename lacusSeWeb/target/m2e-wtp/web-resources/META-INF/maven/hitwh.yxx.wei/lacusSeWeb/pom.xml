@@ -39,15 +39,13 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>4.3.5.Final</version>
 		</dependency>
-		<!-- <dependency> <groupId>cglib</groupId> <artifactId>cglib</artifactId> 
-			<version>2.2</version> </dependency> -->
+
 		<dependency>
 			<groupId>org.apache.struts</groupId>
 			<artifactId>struts2-json-plugin</artifactId>
 			<version>2.3.16</version>
 		</dependency>
-		<!-- <dependency> <groupId>org.aspectj</groupId> <artifactId>aspectjweaver</artifactId> 
-			<version>1.7.3</version> </dependency> -->
+
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>
@@ -112,9 +110,8 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.5.3</version>
 		</dependency>
-
-
 	</dependencies>
+	
 	<build>
 		<finalName>lacusSeWeb</finalName>
 	</build>

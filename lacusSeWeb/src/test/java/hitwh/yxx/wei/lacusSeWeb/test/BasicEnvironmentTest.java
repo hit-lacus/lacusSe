@@ -3,9 +3,6 @@ package hitwh.yxx.wei.lacusSeWeb.test;
 import static org.junit.Assert.assertEquals;
 
 import java.util.UUID;
-
-import hitwh.yxx.wei.web.pojo.User;
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

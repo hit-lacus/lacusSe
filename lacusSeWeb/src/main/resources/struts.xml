@@ -10,17 +10,13 @@
 	<constant name="struts.configuration.xml.reload" value="true" />
 
 	<package name="default" extends="struts-default" namespace="/">
-		<!-- 声明拦截器 <interceptors> <interceptor name="authority" class="us.xuhang.project.interceptor.AuthorityInterceptor" 
-			/> <interceptor name="exceptionInterceptor" class="us.xuhang.project.interceptor.ExceptionInterceptor" 
-			/> <interceptor-stack name="MyStack"> <interceptor-ref name="authority" /> 
-			<interceptor-ref name="exceptionInterceptor" /> <interceptor-ref name="params"> 
-			<param name="excludeParams">.*\\u0023.*</param> </interceptor-ref> <interceptor-ref 
-			name="defaultStack" /> </interceptor-stack> </interceptors> <default-interceptor-ref 
-			name="MyStack" /> -->
-		<!-- 定义全局的result <global-results> <result name="login">/index.jsp</result> 
-			<result name="error">/error.jsp</result> </global-results> -->
 		<action name="search" class="search" method="search">
-			<result name="success">index.jsp</result>
+			<result name="success">/WEB-INF/jsp/index.jsp</result>
+		</action>
+		
+		
+		<action name="index">
+			<result name="success">/WEB-INF/jsp/index.jsp</result>
 		</action>
 
 	</package>
