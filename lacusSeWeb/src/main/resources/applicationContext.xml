@@ -19,7 +19,6 @@
 
 	<bean id="search" class="hitwh.yxx.wei.web.action.SearchAction" >
 	</bean>
-
 	
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		destroy-method="close"
@@ -50,7 +49,6 @@
 		</property>
 	</bean>
 	
-	
 	<bean id="propertiesFileReader" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 		<property name="locations">
 			<list>
@@ -58,7 +56,5 @@
 			</list>
 		</property>
 	</bean>
-	
-
 			
 </beans>
